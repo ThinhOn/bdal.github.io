@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "BIG DATA & ANALYTICS LAB"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -219,13 +219,15 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
-
+  people:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -265,10 +267,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -282,6 +284,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: true
+      share: true  
 
 
 # Sass/SCSS

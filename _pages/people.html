@@ -1,0 +1,123 @@
+---
+layout: archive
+title: "Meet our team"
+permalink: /people/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+  .people-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .people-card {
+    position: relative;
+    width: 220px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    overflow: hidden;
+  }
+  
+  .people-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .people-info {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .people-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+  }
+  
+  .people-title {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 15px 0;
+  }
+  
+  .view-profile {
+    display: inline-block;
+    color: #ff5722;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .view-profile:hover {
+    text-decoration: underline;
+  }
+  
+  .section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+</style>
+
+<h2 class="section-title">Advisors</h2>
+<div class="people-grid">
+
+  <div class="people-card">
+    <img src="{{ base_path }}/images/professor_1.jpg" alt="professor_1">
+    <div class="people-info">
+      <h3 class="people-name">Professor 1</h3>
+      <p class="people-title">Professor</p>
+      <a href="{{ base_path }}/people/student_1" class="view-profile">View Profile</a>
+    </div>
+  </div>
+  
+
+  <div class="people-card">
+    <img src="{{ base_path }}/images/professor_2.jpg" alt="professor_2">
+    <div class="people-info">
+      <h3 class="people-name">Professor 2</h3>
+      <p class="people-title">Professor</p>
+      <a href="{{ base_path }}/people/student_1" class="view-profile">View Profile</a>
+    </div>
+  </div>
+
+
+</div>
+
+<h2 class="section-title">Students</h2>
+<div class="people-grid">
+
+  <div class="people-card">
+    <img src="{{ base_path }}/images/student_1.jpg" alt="Student 1">
+    <div class="people-info">
+      <h3 class="people-name">Student 1</h3>
+      <p class="people-title">PhD Student</p>
+      <a href="{{ base_path }}/people/student_1" class="view-profile">View Profile</a>
+    </div>
+  </div>
+  
+  <div class="people-card">
+    <img src="{{ base_path }}/images/student_2.jpg" alt="Student 2">
+    <div class="people-info">
+      <h3 class="people-name">Student 2</h3>
+      <p class="people-title">PhD Student</p>
+      <a href="{{ base_path }}/people/student_1" class="view-profile">View Profile</a>
+    </div>
+  </div>
+
+    <div class="people-card">
+    <img src="{{ base_path }}/images/student_3.jpg" alt="Student 3">
+    <div class="people-info">
+      <h3 class="people-name">Student 3</h3>
+      <p class="people-title">PhD Student</p>
+      <a href="{{ base_path }}/people/student_1" class="view-profile">View Profile</a>
+    </div>
+  </div>
+
+</div>
