@@ -72,3 +72,11 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
 </div>
+
+
+
+**[VERY IMPORTANT] How to locate files to edit sections:** 
+- Modify tabs: /_data/navigation.yml
+- Homepage: /_pages/home.md
+- Side bar (where the avatar is): _config.yml
+- Footer: /_includes/footer.html
