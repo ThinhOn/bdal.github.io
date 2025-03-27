@@ -63,7 +63,7 @@ author_profile: true
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
     
-    {% assign category_publications = site.publications | where: "category", category[0] | sort: "year" | reverse %}
+    {% assign category_publications = site.data.publications | where: "category", category[0] | sort: "year" | reverse %}
     
     {% if category_publications.size > 0 %}
       <!-- <h2>{{ category[1].title }}</h2>
@@ -100,7 +100,7 @@ author_profile: true
 
   <hr />
   <ul class="publication-list">
-    {% for post in site.publications | sort: "year" | reverse %}
+    {% for post in site.data.publications | sort: "year" | reverse %}
       <li class="publication">
         <h3 class="pub-title">
           {{ post.title }}
