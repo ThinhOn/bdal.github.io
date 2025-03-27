@@ -17,4 +17,5 @@ bibtex: |
     year={2018},
     publisher={Elsevier}
     }
+permalink: /publications/2018_Big_data_research
 ---
