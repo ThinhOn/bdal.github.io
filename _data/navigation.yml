@@ -9,10 +9,7 @@ main:
     url: /projects/  
 
   - title: "Publications"
-    url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
+    url: /_pages/publications/ 
     
   - title: "People"
     url: /people/
