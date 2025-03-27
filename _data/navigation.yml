@@ -9,7 +9,7 @@ main:
     url: /projects/  
 
   - title: "Publications"
-    url: /_pages/publications/ 
+    url: /publications/ 
     
   - title: "People"
     url: /people/
