@@ -29,3 +29,18 @@ layout: compress
 
   </body>
 </html>
+
+<script>
+  function toggleBibtex(id) {
+      var bibtex = document.getElementById(id);
+      if (bibtex) {  // Ensure element exists
+          if (bibtex.style.display === "none" || bibtex.style.display === "") {
+              bibtex.style.display = "block";
+          } else {
+              bibtex.style.display = "none";
+          }
+      } else {
+          console.error("BibTeX element not found: " + id);
+      }
+  }
+  </script>
